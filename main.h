@@ -2,12 +2,12 @@
 #define MAIN_H
 
 #include <stdarg.h>
-#include <stdio.h>
 #include <stdlib.h>
-#include <strings.h>
+#include <unistd.h>
 
 /* Prototypes */
 int _printf(const char *format, ...);
-int _putchar(char c);
+int put_chr(char c);
+int put_str(char *c);
 
 #endif
